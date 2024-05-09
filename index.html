@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercício 4</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <table class="tabela-brasileirao">
+        <tr>
+            <td colspan="14" id="tabela-brasileirao-header"><a href="#">Temporada<br><span id="ano">2022 ▼</span></a></td>
+        </tr>
+
+        <tr>
+            <th class="tabela-colunas-bordas"></th>
+            <th colspan="3" class="titulo-clube">Clube</th>
+            <th>Pts</th>
+            <th>PJ</th>
+            <th>VIT</th>
+            <th>E</th>
+            <th>DER</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>Últimas cinco</th>
+            <th class="tabela-colunas-borda"></th>
+        </tr>
+
+        <tr>
+            <td class="borda-azulm"></td>
+            <td id="classificacao-azul-marinho">1</td>
+            <td><img src="imagens/botafogo.png" alt="Botafogo"></td>
+            <td class="titulo-clube">Botafogo</td>
+            <td id="negrito">9</td>
+            <td>4</td>
+            <td>3</td>
+            <td>0</td>
+            <td>1</td>
+            <td>10</td>
+            <td>4</td>
+            <td>6</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-azulm"></td>
+            <td id="classificacao-azul-marinho">2</td>
+            <td><img src="imagens/atletico-mg.png" alt="Atletico-MG"></td>
+            <td class="titulo-clube">Atlético-MG</td>
+            <td id="negrito">8</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+            <td>0</td>
+            <td>7</td>
+            <td>1</td>
+            <td>6</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-azulm"></td>
+            <td id="classificacao-azul-marinho">3</td>
+            <td><img src="imagens/bragantino.png" alt="Bragantino"></td>
+            <td class="titulo-clube">Bragantino</td>
+            <td id="negrito">8</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+            <td>0</td>
+            <td>6</td>
+            <td>4</td>
+            <td>2</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-azulm"></td>
+            <td id="classificacao-celeste">4</td>
+            <td><img src="imagens/atletico-pr.png" alt="Atletico-PR"></td>
+            <td class="titulo-clube">Atlético-PR</td>
+            <td id="negrito">8</td>
+            <td>4</td>
+            <td>2</td>
+            <td>2</td>
+            <td>0</td>
+            <td>7</td>
+            <td>1</td>
+            <td>6</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-laranja"></td>
+            <td id="classificacao-laranja">5</td>
+            <td><img src="imagens/bahia.png" alt="Bahia"></td>
+            <td class="titulo-clube">Bahia</td>
+            <td id="negrito">7</td>
+            <td>4</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>6</td>
+            <td>5</td>
+            <td>1</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-laranja"></td>
+            <td id="classificacao-laranja">6</td>
+            <td><img src="imagens/internacional.png" alt="Internacional"></td>
+            <td class="titulo-clube">Internacional</td>
+            <td id="negrito">7</td>
+            <td>4</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>4</td>
+            <td>3</td>
+            <td>1</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-verde"></td>
+            <td id="classificacao-verde">7</td>
+            <td><img src="imagens/cruzeiro.png" alt="Cruzeiro"></td>
+            <td class="titulo-clube">Cruzeiro</td>
+            <td id="negrito">7</td>
+            <td>4</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>7</td>
+            <td>7</td>
+            <td>0</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-verde"></td>
+            <td id="classificacao-verde">8</td>
+            <td><img src="imagens/flamengo.png" alt="Flamengo"></td>
+            <td class="titulo-clube">Flamengo</td>
+            <td id="negrito">7</td>
+            <td>4</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>4</td>
+            <td>4</td>
+            <td>0</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-verde"></td>
+            <td id="classificacao-verde">9</td>
+            <td><img src="imagens/gremio.png" alt="Gremio"></td>
+            <td class="titulo-clube">Grêmio</td>
+            <td id="negrito">6</td>
+            <td>4</td>
+            <td>2</td>
+            <td>0</td>
+            <td>2</td>
+            <td>4</td>
+            <td>3</td>
+            <td>1</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-verde"></td>
+            <td id="classificacao-verde">10</td>
+            <td><img src="imagens/criciuma.png" alt="Criciúma"></td>
+            <td class="titulo-clube">Criciúma</td>
+            <td id="negrito">5</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+            <td>0</td>
+            <td>6</td>
+            <td>2</td>
+            <td>4</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-verde"></td>
+            <td id="classificacao-verde">11</td>
+            <td><img src="imagens/fortaleza.png" alt="Fortaleza"></td>
+            <td class="titulo-clube">Fortaleza</td>
+            <td id="negrito">5</td>
+            <td>3</td>
+            <td>1</td>
+            <td>2</td>
+            <td>0</td>
+            <td>4</td>
+            <td>3</td>
+            <td>0</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-verde"></td>
+            <td id="classificacao-verde">12</td>
+            <td><img src="imagens/palmeiras.png" alt="palmeiras"></td>
+            <td class="titulo-clube">Palmeiras</td>
+            <td id="negrito">5</td>
+            <td>4</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/vitoria.svg" alt="virotia">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td id="classificacao-cinza">13</td>
+            <td><img src="imagens/juventude.png" alt="Juventude"></td>
+            <td class="titulo-clube">Juventude</td>
+            <td id="negrito">5</td>
+            <td>4</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td>5</td>
+            <td>7</td>
+            <td>-2</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td id="classificacao-cinza">14</td>
+            <td><img src="imagens/sao-paulo.png" alt="sao-paulo"></td>
+            <td class="titulo-clube">São Paulo</td>
+            <td id="negrito">4</td>
+            <td>4</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>5</td>
+            <td>4</td>
+            <td>1</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td id="classificacao-cinza">15</td>
+            <td><img src="imagens/corinthians.png" alt="Corinthians"></td>
+            <td class="titulo-clube">Corinthians</td>
+            <td id="negrito">4</td>
+            <td>4</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td id="classificacao-cinza">16</td>
+            <td><img src="imagens/fluminense.png" alt="fluminense"></td>
+            <td class="titulo-clube">Fluminense</td>
+            <td id="negrito">4</td>
+            <td>4</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td  class="titulo-ultimas-cinco">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-vermelha"></td>
+            <td id="classificacao-vermelha">17</td>
+            <td><img src="imagens/vasco-da-gama.png" alt="vasco-da-gama"></td>
+            <td class="titulo-clube">Vasco da Gama</td>
+            <td id="negrito">4</td>
+            <td>4</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>5</td>
+            <td>8</td>
+            <td>-3</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/vitoria.svg" alt="vitoria">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-vermelha"></td>
+            <td id="classificacao-vermelha">18</td>
+            <td><img src="imagens/ec-vitoria.png" alt="vitoria"></td>
+            <td class="titulo-clube">EC Vitória</td>
+            <td id="negrito">1</td>
+            <td>3</td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>6</td>
+            <td>-3</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-vermelha"></td>
+            <td id="classificacao-vermelha">19</td>
+            <td><img src="imagens/atletico-go.png" alt="atletico-go"></td>
+            <td class="titulo-clube">Atlético-GO</td>
+            <td id="negrito">1</td>
+            <td>4</td>
+            <td>0</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2</td>
+            <td>7</td>
+            <td>-5</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/empate.svg" alt="empate">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="borda-vermelha"></td>
+            <td id="classificacao-vermelha">20</td>
+            <td><img src="imagens/cuiaba.png" alt="cuiaba"></td>
+            <td class="titulo-clube">Cuiabá</td>
+            <td id="negrito">0</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+            <td>8</td>
+            <td>-8</td>
+            <td class="titulo-ultimas-cinco">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/derrota.svg" alt="derrota">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+                <img src="imagens/jogo-futuro.svg" alt="jogo-futuro">
+            </td>
+        </tr>
+
+        <tr class="legenda">
+            <td colspan="14">
+                <table>
+                    <tr>
+                        <th>Qualificação/Rebaixamento</th><th>Últimas cinco partidas</th>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/quadrado-azul.png" alt="Libertadores">&nbsp;&nbsp;&nbsp;&nbsp;Fase de grupos da Copa Libertadores</td><td> <img src="imagens/vitoria.svg" alt="vitoria"> Vitórias</td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/quadrado-laranja.png" alt="Pre-Libertadores">&nbsp;&nbsp;&nbsp;&nbsp;Qualificatória da Copa Libertadores</td><td> <img src="imagens/empate.svg" alt="empate"> Empate</td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/quadrado-verde.png" alt="Sul-Americana">&nbsp;&nbsp;&nbsp;&nbsp;Fase de grupos da Copa Sul-Americana</td><td> <img src="imagens/derrota.svg" alt="derrota"> Derrota</td>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/quadrado-vermelho.png" alt="Rebaixamento">&nbsp;&nbsp;&nbsp;&nbsp;Rebaixamento</td><td> <img src="imagens/jogo-futuro.svg" alt="Nao-jogou"> Não Jogou</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+</html>
